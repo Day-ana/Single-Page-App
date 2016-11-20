@@ -80,13 +80,11 @@
 		function updateList(ev){
 			resetContent();
 			
-			// console.log(ev.parentNode.getAttribute('id'));
 			title.innerHTML = ev.parentNode.getAttribute('id');
 
 			document.getElementById(ev.className).className = "active";
 			ev.classList.add('on');
 
-			// console.log(catTitle);
 			catTitle.innerHTML = ev.innerHTML;
 		}
 
