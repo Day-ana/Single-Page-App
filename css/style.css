@@ -1,0 +1,33 @@
+body{background: #da2900;
+background-image: url("../assets/zenbg-1.png"), url("../assets/zenbg-2.png");
+background-repeat: repeat-x, repeat; color:#ffffff;font: normal 200 16px/28px helvetica; letter-spacing: 0.05em;}
+header{height: 223px;}
+section{display: none;}
+section.active{display: block}
+nav ul{margin: 0;}
+nav ul li {transition: background-color .5s; background: rgba(0, 0, 0, 0.49); border-radius:3px 3px 0 0; color: #fff; display: inline-block; font-size: 18px; font-weight: 200; float: left; margin: 0 8px; padding: 0.5em 1.5em; cursor:pointer; height: 20px; text-transform: uppercase; margin-bottom: 1px;}
+nav ul li.on{background: rgba(3, 218, 20, 0.43);box-shadow: 0px 15px 60px rgba(0, 0, 0, 0.59);border: 1px solid rgba(164, 255, 0, 0.72);margin-top: -4px;}
+footer{width: 100%; border-top: 4px solid rgba(0, 0, 0, 0.47); font-size: 13px;}
+footer ul{ padding-bottom: 15px;margin: 15px auto; width: 400px;}
+footer ul li{list-style:none; float: left;border-right:1px solid #fff; padding:0 40px; height: 30px;}
+footer ul li a{color:#fff;text-decoration: none;}
+footer ul li a:hover{text-decoration: underline}
+footer ul li:last-child{border-right:none;}
+
+.grid{ display: flex;}
+.grid p{height:140px; width: 240px;}
+.grid.deux p{ border: 1px solid rgb(255, 255, 255); padding: 20px; height: 135px; flex: 50%; margin: 10px 40px 0px 0px; overflow: auto;}
+.cat-menu{border-right:4px solid rgba(0, 0, 0, 0.47);}
+.cat-menu h4{background: rgba(0, 0, 0, 0.32); color: #fff; height: 25px; padding: 10px; font-weight: 200; width: 130px;border: 1px solid rgba(172, 158, 21, 0.6);text-transform: uppercase;}
+.cat-menu ul{padding: 0; height: 200px;}
+.cat-menu li{transition: background-color .5s, color .5s; float: left; cursor:pointer; display: block; width: 60%;padding: 2px 20px;font-weight: 100;} 
+.cat-menu ul li:hover, .cat-menu ul li.on{border-right: 1px solid rgba(164, 255, 0, 0.72);background: rgba(3, 218, 20, 0.43);}
+.main-section{text-align: left;margin: 0 auto;width: 940px; height: 610px;}
+.cat-content{float: right; width: 721px;padding-right: 20px;}
+.cat-menu{float: left; width: 160px;height: 597px;}
+.container{margin: 0 auto; width: 940px;}
+.account-section{width: 100%; height: 50px;}
+.account-section a{color:#FFF; text-decoration: none; float: right; padding: .25em; margin:0 10px;}
+.welcome-section{float: left; background: rgba(0, 0, 0, 0.49);width: 100%;height: 120px;}
+.welcome-section h1{color: #fff; text-transform:uppercase; text-align: center;font-weight: 200; padding: 20px 0}
+
